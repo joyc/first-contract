@@ -2,7 +2,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-pragma solidity 0.8.14;
+pragma solidity 0.8.15;
 
 contract MintableERC721 is ERC721URIStorage, Ownable {
     // 通过合约owner去mint新的NFT，可以指定NFT的接收者地址及设置NFT对应的tokenId和uri
